@@ -1,0 +1,18 @@
+{
+    "socket": "https://socket.scriptmint.com:9001/",
+    "ice_servers": [
+        {
+            "urls": "stun:st.kodemint.in:5349"
+        },
+        {
+          "urls": "turn:st.kodemint.in:5349",
+          "secret": "6d461f6ff4ab272df5ce012c5c0b15f808fd95a9",
+          "username": "",
+          "credential": "",
+          "expires_in": "43200",
+          "time_difference": "0",
+          "requires_credential": true,
+          "expirable_credentials": true
+        }
+    ]
+}
